@@ -85,7 +85,7 @@ const bill2 = 26.67;
 const tip2 = 26.67 * 15 / 100;
 const billAndtip2 = bill2 + tip2 + "€";
 console.log(billAndtip2); 
-// bill is €24.585 
+// bill is €30.6705 
 
 // €35.92 + 20% tip
 const bill3 = 35.92 ;
