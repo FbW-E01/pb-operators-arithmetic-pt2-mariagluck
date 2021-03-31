@@ -47,6 +47,7 @@ console.log(triangle);
 const squareSide = 5;
 const squareArea = squareSide * squareSide + "cm";
 console.log(squareArea);
+// square area is 25cm²
 
 // Q7. Calculate the area of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
 const triangleA = 5;
@@ -129,4 +130,4 @@ const averageTest = 78;
 const requiredScore = 80;
 const lastTest = (requiredScore * 2) - averageTest;
 console.log(`James needs a minimum of ${lastTest} to get an 80% average.`);
-// Expected output: James needs a€" minimum of --% to get an 80% average.
+// Expected output: James needs a€" minimum of 82 to get an 80% average.
