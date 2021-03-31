@@ -45,8 +45,11 @@ console.log(triangle);
 // Q6. Calculate the area of a square. Each side is 5cm.
 
 const squareSide = 5;
-const squareArea = squareSide * squareSide + "cm";
+const squareArea = squareSide * squareSide + "cm²";
 console.log(squareArea);
+// or like this with Math.pow(base, exponent)
+const sqArea = Math.pow(5, 2) + "cm²";
+console.log(sqArea);
 // square area is 25cm²
 
 // Q7. Calculate the area of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
