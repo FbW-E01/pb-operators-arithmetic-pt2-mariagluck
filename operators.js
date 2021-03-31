@@ -106,13 +106,12 @@ const hours4 = 9;
 const hours5 = 8;
 const hours6 = 2;
 const hours7 = 1;
-const hours8 = 8;
-const hours9 = 5;
-const hours10 = 7;
-const hours11 = 4;
-const dailyHours = (hours1 + hours2 + hours3 + hours4 + hours5 + hours6 + hours7 + hours8 + hours9 + hours10 + hours11) / 11 + "hours/day";
+const hours8 = 8.5;
+const hours9 = 7;
+const hours10 = 4;
+const dailyHours = (hours1 + hours2 + hours3 + hours4 + hours5 + hours6 + hours7 + hours8 + hours9 + hours10) / 10 + "hours/day";
 console.log(dailyHours);
-// 5.72727272 hours/day
+// 5.85 hours/day
 
 
 // Q11. A math student scored 75, 70, 85, 90, 100 on the first five tests he took . After he took his sixth math test, the average is now 85. What did he score on the sixth test?
