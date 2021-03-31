@@ -128,8 +128,8 @@ console.log("Score in the sixth test: " + mathscore6);
 
 // Q12. For James to get a 1st class degree, he needs to get an average of 80% in all 9 of his assessments. He has taken 8 assessments and his average is 78%. What is the minimum percentage he must get in his last assessment to ensure he gets a first class? 
 
-const averageTest = 78;
-const requiredScore = 80;
-const lastTest = (requiredScore * 2) - averageTest;
+const averageEightTest = 78 * 8;
+const requiredScore = 80 * 9;
+const lastTest = requiredScore - averageEightTest;
 console.log(`James needs a minimum of ${lastTest} to get an 80% average.`);
-// Expected output: James needs a€" minimum of 82 to get an 80% average.
+// Expected output: James needs a " minimum of 96 to get an 80% average.
